@@ -17,8 +17,7 @@ Limitations:
 - The provided puzzle levels are primarily for testing the implementation.
 - If you want to solve more interesting or complicated levels, you'll have to enter them yourself.
 - The solver can get stuck on complicated levels.
-
-Note: This game does not use any data from the Hitman Go game.
+- The solver is single-threaded, and only uses one of your CPUs.
 
 # FAQ
 
@@ -49,3 +48,13 @@ does a breadth-first-search until it happens to find the key, after which it can
 Q: Can I use this code in my own projects?
 
 A: Yes, certainly!
+
+# Links
+
+[SpyPuzzleGameState](https://github.com/jackpal/SpyPuzzleGameState) - a Swift Package for the
+Spy Puzzle game state and game rules.
+
+[SpyPuzzleSolver](https://github.com/jackpal/SpyPuzzleGameState) - a Swift Package for the level solver.
+
+[SpyPuzzleCLI](https://github.com/jackpal/SpyPuzzleCLI) - a Swift Package for a command-line app that
+can parse and solve text-based Spy Puzzle levels. Currently only tested on MacOS.
