@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36938C0D281B95B400F4527C /* SpyPuzzleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C0C281B95B400F4527C /* SpyPuzzleAppApp.swift */; };
-		36938C0F281B95B400F4527C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C0E281B95B400F4527C /* ContentView.swift */; };
+		36938C0D281B95B400F4527C /* SpyPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C0C281B95B400F4527C /* SpyPuzzleApp.swift */; };
 		36938C11281B95B400F4527C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36938C10281B95B400F4527C /* Assets.xcassets */; };
 		36938C14281B95B400F4527C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36938C13281B95B400F4527C /* Preview Assets.xcassets */; };
+		36938C1E281B97D000F4527C /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C1D281B97D000F4527C /* Levels.swift */; };
+		36938C20281B97ED00F4527C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C1F281B97ED00F4527C /* Model.swift */; };
+		36938C2F281B980200F4527C /* GameStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C28281B980200F4527C /* GameStateView.swift */; };
+		36938C30281B980200F4527C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C2B281B980200F4527C /* ContentView.swift */; };
+		36938C31281B980200F4527C /* MoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C29281B980200F4527C /* MoveView.swift */; };
+		36938C32281B980200F4527C /* ActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C2A281B980200F4527C /* ActionsView.swift */; };
+		36938C33281B980200F4527C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C23281B980200F4527C /* AsyncButton.swift */; };
+		36938C34281B980200F4527C /* NodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C26281B980200F4527C /* NodesView.swift */; };
+		36938C35281B980200F4527C /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C2D281B980200F4527C /* PieceView.swift */; };
+		36938C36281B980200F4527C /* SolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C25281B980200F4527C /* SolutionView.swift */; };
+		36938C37281B980200F4527C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C2E281B980200F4527C /* MapView.swift */; };
+		36938C38281B980200F4527C /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C24281B980200F4527C /* ViewHelpers.swift */; };
+		36938C39281B980200F4527C /* PiecesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C27281B980200F4527C /* PiecesView.swift */; };
+		36938C3A281B980200F4527C /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36938C2C281B980200F4527C /* NodeView.swift */; };
+		36938C3D281B98DB00F4527C /* SpyPuzzleGameState in Frameworks */ = {isa = PBXBuildFile; productRef = 36938C3C281B98DB00F4527C /* SpyPuzzleGameState */; };
+		36938C40281B98EB00F4527C /* SpyPuzzleSolver in Frameworks */ = {isa = PBXBuildFile; productRef = 36938C3F281B98EB00F4527C /* SpyPuzzleSolver */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36938C09281B95B400F4527C /* SpyPuzzleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyPuzzleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36938C0C281B95B400F4527C /* SpyPuzzleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyPuzzleAppApp.swift; sourceTree = "<group>"; };
-		36938C0E281B95B400F4527C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36938C0C281B95B400F4527C /* SpyPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyPuzzleApp.swift; sourceTree = "<group>"; };
 		36938C10281B95B400F4527C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36938C13281B95B400F4527C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36938C1D281B97D000F4527C /* Levels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		36938C1F281B97ED00F4527C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		36938C23281B980200F4527C /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		36938C24281B980200F4527C /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
+		36938C25281B980200F4527C /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
+		36938C26281B980200F4527C /* NodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesView.swift; sourceTree = "<group>"; };
+		36938C27281B980200F4527C /* PiecesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiecesView.swift; sourceTree = "<group>"; };
+		36938C28281B980200F4527C /* GameStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateView.swift; sourceTree = "<group>"; };
+		36938C29281B980200F4527C /* MoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveView.swift; sourceTree = "<group>"; };
+		36938C2A281B980200F4527C /* ActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsView.swift; sourceTree = "<group>"; };
+		36938C2B281B980200F4527C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36938C2C281B980200F4527C /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		36938C2D281B980200F4527C /* PieceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
+		36938C2E281B980200F4527C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36938C40281B98EB00F4527C /* SpyPuzzleSolver in Frameworks */,
+				36938C3D281B98DB00F4527C /* SpyPuzzleGameState in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +81,12 @@
 		36938C0B281B95B400F4527C /* SpyPuzzleApp */ = {
 			isa = PBXGroup;
 			children = (
-				36938C0C281B95B400F4527C /* SpyPuzzleAppApp.swift */,
-				36938C0E281B95B400F4527C /* ContentView.swift */,
 				36938C10281B95B400F4527C /* Assets.xcassets */,
+				36938C1A281B96EE00F4527C /* Levels */,
+				36938C1B281B96FC00F4527C /* Model */,
 				36938C12281B95B400F4527C /* Preview Content */,
+				36938C0C281B95B400F4527C /* SpyPuzzleApp.swift */,
+				36938C1C281B971200F4527C /* Views */,
 			);
 			path = SpyPuzzleApp;
 			sourceTree = "<group>";
@@ -65,6 +97,41 @@
 				36938C13281B95B400F4527C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36938C1A281B96EE00F4527C /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				36938C1D281B97D000F4527C /* Levels.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		36938C1B281B96FC00F4527C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36938C1F281B97ED00F4527C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36938C1C281B971200F4527C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36938C2A281B980200F4527C /* ActionsView.swift */,
+				36938C23281B980200F4527C /* AsyncButton.swift */,
+				36938C2B281B980200F4527C /* ContentView.swift */,
+				36938C28281B980200F4527C /* GameStateView.swift */,
+				36938C2E281B980200F4527C /* MapView.swift */,
+				36938C29281B980200F4527C /* MoveView.swift */,
+				36938C26281B980200F4527C /* NodesView.swift */,
+				36938C2C281B980200F4527C /* NodeView.swift */,
+				36938C27281B980200F4527C /* PiecesView.swift */,
+				36938C2D281B980200F4527C /* PieceView.swift */,
+				36938C25281B980200F4527C /* SolutionView.swift */,
+				36938C24281B980200F4527C /* ViewHelpers.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +150,10 @@
 			dependencies = (
 			);
 			name = SpyPuzzleApp;
+			packageProductDependencies = (
+				36938C3C281B98DB00F4527C /* SpyPuzzleGameState */,
+				36938C3F281B98EB00F4527C /* SpyPuzzleSolver */,
+			);
 			productName = SpyPuzzleApp;
 			productReference = 36938C09281B95B400F4527C /* SpyPuzzleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +182,10 @@
 				Base,
 			);
 			mainGroup = 36938C00281B95B400F4527C;
+			packageReferences = (
+				36938C3B281B98DB00F4527C /* XCRemoteSwiftPackageReference "SpyPuzzleGameState" */,
+				36938C3E281B98EB00F4527C /* XCRemoteSwiftPackageReference "SpyPuzzleSolver" */,
+			);
 			productRefGroup = 36938C0A281B95B400F4527C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +212,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36938C0F281B95B400F4527C /* ContentView.swift in Sources */,
-				36938C0D281B95B400F4527C /* SpyPuzzleAppApp.swift in Sources */,
+				36938C39281B980200F4527C /* PiecesView.swift in Sources */,
+				36938C32281B980200F4527C /* ActionsView.swift in Sources */,
+				36938C36281B980200F4527C /* SolutionView.swift in Sources */,
+				36938C1E281B97D000F4527C /* Levels.swift in Sources */,
+				36938C37281B980200F4527C /* MapView.swift in Sources */,
+				36938C30281B980200F4527C /* ContentView.swift in Sources */,
+				36938C38281B980200F4527C /* ViewHelpers.swift in Sources */,
+				36938C34281B980200F4527C /* NodesView.swift in Sources */,
+				36938C35281B980200F4527C /* PieceView.swift in Sources */,
+				36938C3A281B980200F4527C /* NodeView.swift in Sources */,
+				36938C31281B980200F4527C /* MoveView.swift in Sources */,
+				36938C33281B980200F4527C /* AsyncButton.swift in Sources */,
+				36938C2F281B980200F4527C /* GameStateView.swift in Sources */,
+				36938C0D281B95B400F4527C /* SpyPuzzleApp.swift in Sources */,
+				36938C20281B97ED00F4527C /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +427,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36938C3B281B98DB00F4527C /* XCRemoteSwiftPackageReference "SpyPuzzleGameState" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jackpal/SpyPuzzleGameState";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		36938C3E281B98EB00F4527C /* XCRemoteSwiftPackageReference "SpyPuzzleSolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jackpal/SpyPuzzleSolver.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36938C3C281B98DB00F4527C /* SpyPuzzleGameState */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36938C3B281B98DB00F4527C /* XCRemoteSwiftPackageReference "SpyPuzzleGameState" */;
+			productName = SpyPuzzleGameState;
+		};
+		36938C3F281B98EB00F4527C /* SpyPuzzleSolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36938C3E281B98EB00F4527C /* XCRemoteSwiftPackageReference "SpyPuzzleSolver" */;
+			productName = SpyPuzzleSolver;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 36938C01281B95B400F4527C /* Project object */;
 }
