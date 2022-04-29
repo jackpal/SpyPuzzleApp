@@ -45,16 +45,21 @@ A: The solver currently doesn't do any if-then planning. So for example
 if the exit is behind a door, the solver doesn't know that it should get the key first. Instead, it
 does a breadth-first-search until it happens to find the key, after which it can quickly get to the exit.
 
+Q: Can I add my own levels?
+
+A: Absolutely! Just edit Levels/Levels.swift. The level format is documented in
+[SpyPuzzleGameState](https://github.com/jackpal/SpyPuzzleGameState).
+
 Q: Can I use this code in my own projects?
 
-A: Yes, certainly!
+A: Yes, certainly! It's licensed under the MIT license.
 
 # Links
 
-[SpyPuzzleGameState](https://github.com/jackpal/SpyPuzzleGameState) - a Swift Package for the
+[SpyPuzzleGameState](https://github.com/jackpal/SpyPuzzleGameState) - a Swift package for the
 Spy Puzzle game state and game rules.
 
-[SpyPuzzleSolver](https://github.com/jackpal/SpyPuzzleGameState) - a Swift Package for the level solver.
+[SpyPuzzleSolver](https://github.com/jackpal/SpyPuzzleGameState) - a Swift package for the level solver.
 
-[SpyPuzzleCLI](https://github.com/jackpal/SpyPuzzleCLI) - a Swift Package for a command-line app that
+[SpyPuzzleCLI](https://github.com/jackpal/SpyPuzzleCLI) - a Swift package for a command-line app that
 can parse and solve text-based Spy Puzzle levels. Currently only tested on MacOS.
